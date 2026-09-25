@@ -11,6 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://vehicle-insurance-fraud-detection-1.onrender.com",
         "https://vehicle-insurance-fraud-ml-2.onrender.com",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
